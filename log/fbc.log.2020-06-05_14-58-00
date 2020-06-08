@@ -1,0 +1,3 @@
+2020-06-05 14:57:59,519 INFO [root] [__init__.py(<module>:11)] - 测试日志
+2020-06-05 14:58:00,183 INFO [root] [login_params.py(test01_login:19)] - 参数登录结果为:{'statusCode': 0, 'errorMessage': None, 'content': {'token': 'dd6066b3077ff007d70af684799c0c0f', 'areaCode': '86', 'c2Authenticated': False, 'bindPaypwd': True, 'bindEmail': False, 'mobile': '18598274082', 'expiretTime': 1591351079983, 'c1Authenticated': False, 'trueNameAuth': False, 'userName': '18598274082'}}
+2020-06-05 14:58:00,201 INFO [root] [login_params.py(test01_login:19)] - 参数登录结果为:{'statusCode': 500, 'errorMessage': '账号不存在', 'content': None}
