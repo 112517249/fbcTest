@@ -7,7 +7,9 @@ suite = unittest.TestSuite()
 # 测试用例添加到测试套件
 suite.addTest(unittest.makeSuite(TestLogin))
 # 定义报告名称
-report_path = os.path.dirname(os.path.abspath(__file__))+"/report/fbc{}.html".format(time.strftime('%Y%m%d %H%M%S'))
+# report_path = os.path.dirname(os.path.abspath(__file__))+"/report/fbc{}.html".format(time.strftime('%Y%m%d %H%M%S'))
+# 要在jenkins中引入报告需要删掉时间
+report_path = os.path.dirname(os.path.abspath(__file__))+"/report/fbc.html"
 # 打开报告
 with open(report_path,mode='wb') as f:
     #初始化HTMLTestRunner_PY3
