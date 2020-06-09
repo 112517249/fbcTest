@@ -17,3 +17,5 @@ with open(report_path,mode='wb') as f:
     runner = HTMLTestRunner(f,verbosity=2,title="FBC接口测试报告",description="自动化测试")
     # 运行测试套件
     runner.run(suite)
+
+print("test轮询构建")
